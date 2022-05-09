@@ -16,7 +16,7 @@
     "@emotion/styled": "latest",
     "@mui/icons-material": "latest",
     "@mui/material": "latest",
-    "imagemin-mozjpeg": "^9.0.0",
+    "imagemin-mozjpeg": "^8.0.0",
     "imagemin-optipng": "^8.0.0",
     "next": "latest",
     "next-optimized-images": "^2.6.2",
