@@ -5,8 +5,8 @@ import Head from 'next/head';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 import createEmotionCache from '../src/createEmotionCache';
+import '../src/style.css';
 import theme from '../src/theme';
-import './style.css';
 
 // Client-side cache, shared for the whole session of the user in the browser.
 const clientSideEmotionCache = createEmotionCache();

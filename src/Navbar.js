@@ -8,7 +8,6 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
 import * as React from 'react';
 
 const pages = [
@@ -80,7 +79,7 @@ const Navbar = () => {
                 ))}
               </Menu>
             </Box>
-            {<Image src="/logocolor.png" alt="De la cuenca logo" height="64" width="64"/>}
+            {<img src="/logocolor.png" alt="De la cuenca logo" height="64" width="64"/>}
             <Box sx={{ flexGrow: 1, paddingLeft: 4, display: { xs: 'none', md: 'flex' } }}>
               {pages.map((page) => (
                 <Button

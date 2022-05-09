@@ -5,7 +5,6 @@ import Avatar from '@mui/material/Avatar';
 import Grid from '@mui/material/Grid';
 import Stack from '@mui/material/Stack';
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
 import ControlledAccordions from './Accordion';
 
 const AboutUs = () => {
@@ -23,7 +22,7 @@ const AboutUs = () => {
             Quienes somos
           </Typography>
         </Grid>
-        <Grid item md={6}>{<Image src="/foto3.jpg" alt="De la cuenca logo" height="370" width="550" />}</Grid>
+        <Grid item md={6}>{<img src="/foto3.jpg" alt="De la cuenca logo" height="370" width="550" />}</Grid>
         <Grid item md={6}>
         <Typography variant="h3" gutterBottom component="div">
           Nuestra Filosofía

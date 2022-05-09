@@ -3,7 +3,6 @@ import Grid from '@mui/material/Grid';
 import Link from '@mui/material/Link';
 import Paper from '@mui/material/Paper';
 import Typography from '@mui/material/Typography';
-import Image from 'next/image';
 import PropTypes from 'prop-types';
 import * as React from 'react';
 
@@ -25,7 +24,7 @@ function FeaturedSection(props) {
       id="startSection"
     >
       {/* Increase the priority of the hero background image */}
-      {<Image style={{ display: 'none' }} src="/basehorizontal.jpeg" alt={post.imageText} layout="fill" />}
+      {<img style={{ display: 'none' }} src="/basehorizontal.jpeg" alt={post.imageText} layout="fill" />}
       <Box
         sx={{
           position: 'absolute',
