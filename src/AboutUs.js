@@ -22,7 +22,7 @@ const AboutUs = () => {
             Quienes somos
           </Typography>
         </Grid>
-        <Grid item md={6}>{<img src="/foto3.jpg" alt="De la cuenca logo" height="370" width="550" />}</Grid>
+        <Grid item md={6}>{<img src="/foto3.jpg" alt="De la cuenca logo"  width="100%" />}</Grid>
         <Grid item md={6}>
         <Typography variant="h3" gutterBottom component="div">
           Nuestra Filosofía
