@@ -17,6 +17,8 @@ export default function MyApp(props) {
   return (
     <CacheProvider value={emotionCache}>
       <Head>
+        <title>De la Cuenca</title>
+        <meta name="description" content="Marca Lider en Guatemala, en Productos Apicolas como: Miel de Abeja 100% natural, Polen, Propoleo, Jalea Real, etc."/>
         <meta name="viewport" content="initial-scale=1, width=device-width" />
       </Head>
       <ThemeProvider theme={theme}>

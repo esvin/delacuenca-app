@@ -79,14 +79,15 @@ const Footer = () => {
             <Link href="mailto:launionnahualate@gmail.com">launionnahualate@gmail.com</Link>
             <Link href="mailto:arapispclsas@gmail.com">arapispclsas@gmail.com</Link>
             <Box>
-              <Link href="tel:+502 55669345" sx={{mr: 2}}>+502 55669345</Link>
-              <Link href="tel:+502 42807260">+502 42807260</Link>
+              <Link href="tel:+502 78705331" sx={{mr: 2}}>+502 7870 5331</Link>
+              <Link href="tel:+502 55669267">+502 5566 9267</Link>
+              <Link href="tel:+502 31918802">+502 3191 8802</Link>
             </Box>
             <Typography variant="subtitle2">
               Redes Sociales
             </Typography>
             <Box>
-              <IconButton href="https://wa.me/50255669345" aria-label="whatsapp" color="primary">
+              <IconButton href="https://wa.me/50255669267" aria-label="whatsapp" color="primary">
                 <WhatsappRoundedIcon fontSize="large"/>
               </IconButton>
               <IconButton href="https://www.facebook.com/delacuencagt/"  aria-label="facebook"  color="primary">

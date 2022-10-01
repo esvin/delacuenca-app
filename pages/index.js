@@ -38,7 +38,7 @@ export default function Index() {
   const mainFeaturedPost = {
     title: 'DE LA CUENCA',
     description:
-      "Somos una empresa lider en productos apicolas en Guatemala, Desde Miel de abeja, Polen, Propoleo, Cera, Abejas reinas, etc.",
+      "Somos una marca lider en productos apicolas en Guatemala, desde Miel de abeja, Polen, Propoleo, Cera, Jale Real, Abejas reinas, entre otros productos.",
     image: basehorizontal,
     imageText: 'main image description',
     linkText: '',
@@ -46,8 +46,8 @@ export default function Index() {
 
   return (
     <ThemeProvider theme={mdTheme}>
+    <CssBaseline />
       <Box sx={{ display: 'flex' }}>
-        <CssBaseline />
         <Navbar />
         <Box
           component="main"
