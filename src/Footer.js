@@ -1,7 +1,7 @@
 
 import FacebookRoundedIcon from '@mui/icons-material/FacebookRounded';
 import FmdGoodRoundedIcon from '@mui/icons-material/FmdGoodRounded';
-import WhatsappRoundedIcon from '@mui/icons-material/WhatsappRounded';
+import WhatsAppIcon from '@mui/icons-material/WhatsApp';
 import Box from '@mui/material/Box';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
@@ -88,7 +88,7 @@ const Footer = () => {
             </Typography>
             <Box>
               <IconButton href="https://wa.me/50255669267" aria-label="whatsapp" color="primary">
-                <WhatsappRoundedIcon fontSize="large"/>
+                <WhatsAppIcon fontSize="large"/>
               </IconButton>
               <IconButton href="https://www.facebook.com/delacuencagt/"  aria-label="facebook"  color="primary">
                 <FacebookRoundedIcon fontSize="large"/>
