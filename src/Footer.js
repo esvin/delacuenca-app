@@ -81,7 +81,7 @@ const Footer = () => {
             <Box>
               <Link href="tel:+502 78705331" sx={{mr: 2}}>+502 7870 5331</Link>
               <Link href="tel:+502 55669267">+502 5566 9267</Link>
-              <Link href="tel:+502 31918802">+502 3191 8802</Link>
+              <Link href="tel:+502 31928802">+502 3192 8802</Link>
             </Box>
             <Typography variant="subtitle2">
               Redes Sociales
